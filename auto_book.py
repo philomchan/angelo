@@ -30,7 +30,7 @@ def login_proc():
     try:
         user_input = sel.find_element_by_id("username")
         user_input.clear()
-        user_input.send_keys('15001186883')
+        user_input.send_keys('username')
         print 'user-id write success!'
     except:
         print 'user-id write error!'
@@ -38,7 +38,7 @@ def login_proc():
     try:
         pwd_input = sel.find_element_by_id("password")
         pwd_input.clear()
-        pwd_input.send_keys('Cclove122899')
+        pwd_input.send_keys('password')
         print 'pw write success!'
     except:
         print 'pw write error!'
